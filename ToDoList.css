@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(165, 211, 0, 0.47);
+}
+.wrapper {
+    width: 800px;
+    margin: 5px auto;
+    border: 1px solid lightgrey;
+    background-color: #A5702A;
+}
+.inputsub {
+    border: 2px solid black;
+
+}
+#input,
+#but{
+    margin: 0px auto auto 0px;
+    height: 80px;
+    width: 100%;
+    font-size: 55;
+}
+.tasks {
+    height: 100%;
+
+}
+.tasks div {
+    float:top;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid black;
+}
+.tasks div:hover {
+    background-color: #06B600;
+}
+.tasks div p {
+    float: left;
+    border: 1px solid grey;
+}
+.tasks div button {
+    float: right;
+}
+.del:hover {
+	background-color: green;
+}
