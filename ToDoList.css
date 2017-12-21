@@ -18,6 +18,10 @@ body {
     width: 100%;
     font-size: 55;
 }
+#but {
+    background-color:green;
+    border:1px solid black;
+}
 .tasks {
     height: 100%;
 
@@ -33,11 +37,11 @@ body {
 }
 .tasks div p {
     float: left;
-    border: 1px solid grey;
+    margin: 0;
 }
 .tasks div button {
     float: right;
 }
-.del:hover {
-	background-color: green;
+.tasks div.aus {
+    background-color: red;
 }
