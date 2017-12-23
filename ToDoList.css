@@ -12,7 +12,8 @@ body {
 
 }
 #input,
-#but{
+#but,
+#dela{
     margin: 0px auto auto 0px;
     height: 80px;
     width: 100%;
@@ -21,6 +22,12 @@ body {
 #but {
     background-color:green;
     border:1px solid black;
+}
+#dela {
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 50px;
+    font-size: 30;
 }
 .tasks {
     height: 100%;
@@ -38,10 +45,50 @@ body {
 .tasks div p {
     float: left;
     margin: 0;
+    margin-top: 10px;
+    margin-left: 5px;
 }
+
 .tasks div button {
     float: right;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 .tasks div.aus {
     background-color: red;
+}
+.tasks div.aus p {
+    text-decoration: line-through;
+}
+.del {
+    background-color: red;
+    border:1px solid black;
+}
+.yes {
+    background-color:lightgreen;
+    border: 1px solid black;
+}
+.no {
+    background-color:pink;
+    border:1px solid black;
+}
+#Aus{
+    color: darkbrown;
+    float: right;
+    text-decoration: none;
+    margin-right: 5px;
+}
+body .wrapper .tasks div .edit {
+    float:right;
+    background-color: yellow;
+    border: 1px;
+}
+.edin {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+body .wrapper .tasks div .done {
+    float:left;
+    background-color: yellow;
+    border: 1px solid black;
 }
